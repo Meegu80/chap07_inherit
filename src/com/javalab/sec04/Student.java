@@ -18,7 +18,8 @@ public class Student extends Human{
         this.major = major;
     }
 
-    public void showInfo(){
+    @Override
+        public void showInfo(){
         super.showInfo();
         System.out.println("[Student Info]-----------------");
         System.out.println("학번: " + stdNo);

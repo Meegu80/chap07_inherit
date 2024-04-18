@@ -1,4 +1,4 @@
-package com.javalab.sec03;
+package com.javalab.sec04;
 
 /**
  * 직원 클래스, Human 클래스를 상속받음
@@ -19,6 +19,7 @@ public class Employee extends Human {
         this.empNo = empNo;
         this.deptNo = deptNo;
     }
+    @Override
     public void showInfo(){
         super.showInfo();
         System.out.println("[Employee Info]-------------------");
